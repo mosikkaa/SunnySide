@@ -3,6 +3,9 @@ import orange from './assets/orange.svg'
 import './App.css'
 import Home from './components/home.jsx'
 import About from './components/about.jsx'
+import Client from './components/client.jsx'
+import Projects from "./components/projects.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
 
@@ -10,6 +13,9 @@ function App() {
       <>
           <Home/>
           <About/>
+          <Client/>
+          <Projects/>
+          <Footer/>
       </>
   )
 }

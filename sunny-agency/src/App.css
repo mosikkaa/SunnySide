@@ -1,13 +1,19 @@
 @media (max-width: 760px) {
-    section{
+    .about{
         flex-flow: column wrap!important;
     }
-    section div{
+    .about div{
         width: 100%!important;
     }
-    section .container{
+    .about .container{
         flex-flow: column wrap-reverse!important;
 
     }
+}
 
+.clients{
+    color:black!important;
+}
+li{
+    list-style-type: none!important;
 }
