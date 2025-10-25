@@ -1,0 +1,13 @@
+@media (max-width: 760px) {
+    section{
+        flex-flow: column wrap!important;
+    }
+    section div{
+        width: 100%!important;
+    }
+    section .container{
+        flex-flow: column wrap-reverse!important;
+
+    }
+
+}
