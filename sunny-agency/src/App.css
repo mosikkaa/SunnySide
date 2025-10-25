@@ -9,6 +9,9 @@
         flex-flow: column wrap-reverse!important;
 
     }
+    .testimonial{
+        flex-direction: column!important;
+    }
 }
 
 .clients{
@@ -16,4 +19,15 @@
 }
 li{
     list-style-type: none!important;
+    cursor: pointer;
 }
+.contactBtn:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.contactBtn:hover .contactA{
+    transition-duration: 0.5s;
+    color:white!important;
+}
+

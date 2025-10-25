@@ -1,3 +1,4 @@
+import React from 'react';
 import egg from '../assets/egg.svg'
 import glass from '../assets/glass.svg'
 
