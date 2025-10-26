@@ -2,18 +2,36 @@
     .about{
         flex-flow: column wrap!important;
     }
-    .about div{
+    .about .container{
+        flex-flow: column-reverse wrap-reverse!important;
+        height: 150vH!important;
+    }
+    .box{
         width: 100%!important;
     }
-    .about .container{
-        flex-flow: column wrap-reverse!important;
-
+    .textDiv{
+        width: 60%!important;
     }
     .testimonial{
         flex-direction: column!important;
     }
+    .project{
+        width: 50%!important;
+    }
+    header .navH{
+        display: none!important;
+    }
+    .menuBar{
+        display: block!important;
+    }
+    .about{
+        text-align: center;
+    }
 }
 
+li:hover{
+    color: white!important;
+}
 .clients{
     color:black!important;
 }
@@ -30,4 +48,8 @@ li{
     transition-duration: 0.5s;
     color:white!important;
 }
+.menuBar{
+    cursor: pointer;
+}
+
 

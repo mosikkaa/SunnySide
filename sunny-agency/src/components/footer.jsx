@@ -7,7 +7,7 @@ import pinterest from '../assets/pinterest.svg'
 
 const Footer = () => {
     return(
-        <footer style={{width:'100%',display:'flex',justifyContent:'center',alignItems:'center',height:'80vH',backgroundColor:`rgba(144, 212, 198, 1)`}}>
+        <footer style={{color:'rgba(69, 141, 126, 1)',width:'100%',display:'flex',justifyContent:'center',alignItems:'center',height:'80vH',backgroundColor:`rgba(144, 212, 198, 1)`}}>
             <div style={{height:'50%',display:'flex',flexDirection:'column',justifyContent:'space-between',alignItems:'center',gap:'30px'}}>
                 <h1>sunnyside</h1>
                 <ul style={{display:'flex',justifyContent:'space-between',alignItems:'center',gap:'50px',marginBottom:'40px'}}>

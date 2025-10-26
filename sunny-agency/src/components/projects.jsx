@@ -8,11 +8,11 @@ import bitmap4 from '../assets/bitmap4.svg'
 
 const Projects = () => {
     return(
-        <section style={{height:'100vH',width:'100%',display:'flex',flexFlow:'row wrap',flexWrap:'wrap'}}>
-            <div style={{width:'25%',backgroundImage:`url(${bitmap4})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
-            <div style={{width:'25%',backgroundImage:`url(${bitmap3})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
-            <div style={{width:'25%',backgroundImage:`url(${bitmap2})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
-            <div style={{width:'25%',backgroundImage:`url(${bitmap})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
+        <section style={{height:'100vH',display:'flex',flexFlow:'row wrap',flexWrap:'wrap'}}>
+            <div className='project' style={{ display:'block',width:'25%',backgroundImage:`url(${bitmap4})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
+            <div className='project' style={{ display:'block',width:'25%',backgroundImage:`url(${bitmap3})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
+            <div className='project' style={{ display:'block',width:'25%',backgroundImage:`url(${bitmap2})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
+            <div className='project' style={{ display:'block',width:'25%',backgroundImage:`url(${bitmap})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}></div>
         </section>
     )
 }
