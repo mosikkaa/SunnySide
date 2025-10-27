@@ -4,7 +4,6 @@
     }
     .about .container{
         flex-flow: column-reverse wrap-reverse!important;
-        height: 150vH!important;
     }
     .box{
         width: 100%!important;
@@ -26,6 +25,18 @@
     }
     .about{
         text-align: center;
+    }
+    .textDiv{
+        width:45%!important;
+    }
+    .container{
+        height: 200vH!important;
+    }
+    .box{
+        height: 100vH!important;
+    }
+    .boxSZ{
+        height: 50%!important;
     }
 }
 
