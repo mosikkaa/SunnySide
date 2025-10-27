@@ -1,8 +1,8 @@
 import React from 'react';
-import bitmap from '../assets/bitmap.svg'
-import bitmap2 from '../assets/bitmap2.svg'
-import bitmap3 from '../assets/bitmap3.svg'
-import bitmap4 from '../assets/bitmap4.svg'
+import bitmap from '../assets/Bitmap.svg'
+import bitmap2 from '../assets/Bitmap2.svg'
+import bitmap3 from '../assets/Bitmap3.svg'
+import bitmap4 from '../assets/Bitmap4.svg'
 
 
 
