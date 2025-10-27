@@ -1,7 +1,7 @@
 import React from 'react';
 import orange from "../assets/orange.svg";
 import menu from "../assets/menu.svg";
-import group from "../assets/group.svg";
+import group from "../assets/Group.svg";
 
 
 
