@@ -1,12 +1,13 @@
 import React from 'react';
 import orange from "../assets/orange.svg";
 import menu from "../assets/menu.svg";
+import group from "../assets/group.svg";
 
 
 
 const Home = () => {
     return (
-        <div style={{ height: '100vH',width:'100%',backgroundImage: `url(${orange})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}>
+        <div style={{ display:'flex',flexDirection:'column',alignItems:"center",height: '100vH',width:'100%',backgroundImage: `url(${orange})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center center'}}>
             <header style={{ backgroundColor:'transparent',width:'100%',padding:'34px 40px',display:'flex',flexDirection:'column',alignItems:'center',position:'fixed',gap:'34px'}}>
                 <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
                     <h1 style={{cursor:'pointer',color:`rgba(255, 255, 255, 1)`}}>sunnyside</h1>
@@ -18,7 +19,6 @@ const Home = () => {
                         else if(menuDiv.style.display==='block'){
                             menuDiv.style.display='none';
                         }
-
                     }} className='menuBar' style={{display:'none'}}><img src={menu}/></div>
                     <ul className='navH' style={{ listStyle:'none',display:'flex',justifyContent:'space-between',alignItems:'center',gap:'60px'}}>
                         <li><a>About</a></li>
@@ -54,8 +54,10 @@ const Home = () => {
                         }}><a className='contactA' style={{color: `rgba(36, 48, 62, 1)`,}}>Contact</a></li>
                     </ul>
                 </div>
-
             </header>
+            <h1 style={{position:'absolute',top:'25%'}}>WE ARE CREATIVES</h1>
+            <img style={{position:'absolute',top:'48%'}} src={group}/>
+
         </div>
     )
 }
