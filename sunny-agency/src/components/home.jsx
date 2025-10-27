@@ -55,9 +55,15 @@ const Home = () => {
                     </ul>
                 </div>
             </header>
-            <h1 style={{position:'absolute',top:'25%'}}>WE ARE CREATIVES</h1>
+            <h1 style={{position:'absolute',top:'25%',fontFamily: 'Fraunces 9pt Soft',
+                fontWeight: '900',
+                fontSize: '56px',
+                lineHeight: '100%',
+                letterSpacing: '8.75px',
+                textAlign: 'center',
+                textTransform: 'uppercase'
+            }}>WE ARE CREATIVES</h1>
             <img style={{position:'absolute',top:'48%'}} src={group}/>
-
         </div>
     )
 }
